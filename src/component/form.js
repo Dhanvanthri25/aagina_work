@@ -29,7 +29,7 @@ export function Form() {
                     if (res.data.status === 'error') {
                         alert('error')
                         window.location.reload();
-                    } else if (res.data.status === 'error') {
+                    } else if (res.data.status === 'success') {
                         alert('success')
                         window.location.reload();
                     }

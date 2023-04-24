@@ -13,7 +13,7 @@ let a = database.createConnection(
     {
         host: "localhost",
         user: "root",
-        password: "Sownthi@18",
+        password: "root",
         database: "crud"
     }
 )
